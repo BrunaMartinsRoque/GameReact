@@ -1,0 +1,140 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.colorCard {
+  height: 200px;
+  width: 200px;
+}
+
+.cardWrapper {
+  display: flex;
+  width: 400px;
+  flex-wrap: wrap;
+}
+
+.startButton {
+  position: absolute;
+  width: 100px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  font-size: 24px;
+  border-radius: 20px;
+  font-weight: bold;
+}
+
+.score {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  background-color: black;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 50px;
+}
+
+.lost {
+  position: absolute;
+  width: 350px;
+  height: 350px;
+  background-color: black;
+  border-radius: 50%;
+  line-height: 100px;
+  font-size: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.flash.flash {
+  border: 3px solid white;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+.red {
+  background-color: red;
+  &.flash {
+    background-color: rgb(255, 125, 125);
+  }
+}
+
+.blue {
+  background-color: blue;
+  &.flash {
+    background-color: rgb(125, 125, 255);
+  }
+}
+
+.green {
+  background-color: green;
+  &.flash {
+    background-color: rgb(125, 255, 125);
+  }
+}
+
+.yellow {
+  background-color: yellow;
+  &.flash {
+    background-color: rgb(255, 255, 125);
+  }
+}
+
+@media (min-width:1200px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+@media (min-width:992px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+@media (min-width:800px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+@media (max-width: 760px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+@media (max-width: 465px) {
+  main {
+    colorCard: repeat(2.5, 1fr);
+    cardWrapper: repeat(2.5, 1fr);
+  }
+}
+
+ 
