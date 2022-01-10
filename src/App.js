@@ -2,17 +2,8 @@ import "./App.scss";
 import { useState, useEffect } from "react";
 import ColorCard from "./components/ColorCard";
 import timeout from "./utils/util";
-import index from "../src/audios/index";
-import SplashScreen from 'react-native-splash-screen';
 
 function App() {
-
-  const index = [ "greenTone", "redTone", "yellowTone", "blueTone"]
-  if(index){
-    console.log("audio ok")
-  }else{
-    console.log("audio ruim")
-  };
 
   const [isOn, setIsOn] = useState(false);
 
